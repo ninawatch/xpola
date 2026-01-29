@@ -3,30 +3,53 @@
     {
       "id": 1,
       "name": "Al Jazeera",
-      "category": "News",
+      "categoryId": 1,
       "imageUrl": "https://example.com/images/aljazeera.png",
       "streamUrl": "https://stream.example.com/aljazeera.m3u8"
     },
     {
       "id": 2,
       "name": "MBC 1",
-      "category": "Entertainment",
+      "categoryId": 2,
       "imageUrl": "https://example.com/images/mbc1.png",
       "streamUrl": "https://stream.example.com/mbc1.m3u8"
     },
     {
       "id": 3,
       "name": "beIN Sports 1",
-      "category": "Sports",
+      "categoryId": 3,
       "imageUrl": "https://example.com/images/bein1.png",
       "streamUrl": "https://stream.example.com/bein1.m3u8"
     },
     {
       "id": 4,
       "name": "National Geographic Abu Dhabi",
-      "category": "Documentary",
+      "categoryId": 4,
       "imageUrl": "https://example.com/images/natgeo.png",
       "streamUrl": "https://stream.example.com/natgeo.m3u8"
+    }
+  ],
+
+  "categories": [
+    {
+      "id": 1,
+      "name": "News",
+      "imageUrl": "https://example.com/images/categories/news.png"
+    },
+    {
+      "id": 2,
+      "name": "Entertainment",
+      "imageUrl": "https://example.com/images/categories/entertainment.png"
+    },
+    {
+      "id": 3,
+      "name": "Sports",
+      "imageUrl": "https://example.com/images/categories/sports.png"
+    },
+    {
+      "id": 4,
+      "name": "Documentary",
+      "imageUrl": "https://example.com/images/categories/documentary.png"
     }
   ]
 }
